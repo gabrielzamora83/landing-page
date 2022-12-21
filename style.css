@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+
+:root{
+    /* bg colors */
+    --background: #02050e;
+    --background: white;    
+    --nav-background: white;
+    /* text color */
+    --text-color: black;
+    --text-color-secondary: red;
+}
+   *{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "maven pro", "open sans"; sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+    header{
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 30px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+  .logo{
+    height: 50%;
+    float: left;
+    width: 6em;
+    height: 6em;
+    margin-right: 1em;
+  }
+  .navbar,
+  .navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .navbar{
+        gap: 150px;
+    }
+    .navbar-list{
+        gap: 30px;
+    }
+
+    .navbar-list a{
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+    }
+    
+    img { height: 50%;
+    float: left;
+    width: 6em;
+    height: 6em;
+    margin-right: 1em;
+ }
+    body{
+    background-color: #02050e;
+ }
+
